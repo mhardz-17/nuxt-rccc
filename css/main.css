@@ -1,0 +1,81 @@
+h1, h2 {
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+a {
+    color: #42b983;
+}
+
+.band {
+    width: 15px;
+    height: 50px;
+    float: left;
+    margin-right: 15px;
+}
+body{
+    background-color: #154c1b;
+    color: #fff;
+}
+
+.black,.brown,.red,.green,.blue,.orange,.purple,.gray {
+    color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.yellow {
+    background-color: yellow
+}
+
+.blue {
+    background-color: blue;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.gray {
+    background-color: gray;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.green {
+    background-color: green;
+}
+
+.gold {
+    background-color: #DAA520;
+}
+
+.silver {
+    background-color: silver;
+}
