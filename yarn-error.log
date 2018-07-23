@@ -1,0 +1,50 @@
+Arguments: 
+  /usr/local/bin/node /usr/bin/yarn install
+
+PATH: 
+  /home/vagrant/.composer/vendor/bin:/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  0.21.3
+
+Node version: 
+  10.7.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "rccc",
+    "version": "1.0.0",
+    "description": "Resistor Color Code Calculator",
+    "author": "mhardz07@gmail.com",
+    "private": true,
+    "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start",
+      "generate": "nuxt generate",
+      "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "nuxt": "^1.0.0"
+    },
+    "devDependencies": {
+      "babel-eslint": "^8.2.1",
+      "eslint": "^4.15.0",
+      "eslint-friendly-formatter": "^3.0.0",
+      "eslint-loader": "^1.7.1",
+      "eslint-plugin-vue": "^4.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EPROTO: protocol error, symlink '../../../../babel-eslint/node_modules/babylon/bin/babylon.js' -> '/home/vagrant/Sites/VueProjects/NuxtResistorColorCodeCalculator/node_modules/@babel/traverse/node_modules/.bin/babylon'
