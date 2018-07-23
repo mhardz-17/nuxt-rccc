@@ -2,13 +2,13 @@
 // only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
     router: {
-        base: '/<repository-name>/'
+        base : "/nuxt-rccc/"
     }
-} : {}
+} : {};
 
-module.exports = {
-    ...routerBase
-}
+// module.exports = {
+//     ...routerBase
+// }
 
 const webpack = require('webpack')
 
@@ -16,6 +16,7 @@ module.exports = {
     /*
     ** Headers of the page
     */
+    ...routerBase,
     head: {
         title: 'rccc',
         meta: [
