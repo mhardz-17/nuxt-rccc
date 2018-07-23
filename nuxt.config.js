@@ -32,7 +32,7 @@ module.exports = {
     */
     loading: {color: '#3B8070'},
     css: [
-        'bootstrap/dist/css/bootstrap.css',
+        'bootstrap/dist/css/bootstrap.min.css',
         '~/css/main.css'
     ],
 
@@ -67,6 +67,6 @@ module.exports = {
             hints: false
         },
     },
-    // plugins: ['~plugins/bootstrap.js']
+    // plugins: ['bootstrap/dist/js/bootstrap.min.js']
 }
 
