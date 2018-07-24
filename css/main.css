@@ -79,3 +79,13 @@ body{
 .silver {
     background-color: silver;
 }
+
+.resistor-divider {
+    border: 0;
+    height: 5px;
+    background: #3c0909;
+    position: absolute;
+    top: 7px;
+    width: 30%;
+    z-index: 0;
+}
