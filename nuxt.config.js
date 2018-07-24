@@ -33,7 +33,7 @@ module.exports = {
     */
     loading: {color: '#3B8070'},
     css: [
-        'bootstrap/dist/css/bootstrap.min.css',
+        './node_modules/bootstrap/dist/css/bootstrap.css',
         '~/css/main.css'
     ],
 
@@ -41,6 +41,15 @@ module.exports = {
     ** Build configuration
     */
     build: {
+        vendor: ['jquery', 'bootstrap'],
+        plugins: [
+            new webpack.ProvidePlugin({
+                $: 'jquery',
+                jQuery: 'jquery',
+                'window.jQuery': 'jquery',
+                '_': 'lodash'
+            })
+        ],
         /*
         ** Run ESLint on save
         */
@@ -55,19 +64,10 @@ module.exports = {
             }
 
         },
-        vendor: ['jquery', 'bootstrap'],
-
-        plugins: [
-            new webpack.ProvidePlugin({
-                '$': 'jquery',
-                '_': 'lodash'
-                // ...etc.
-            })
-        ],
         performance: {
             hints: false
         },
     },
-    // plugins: ['bootstrap/dist/js/bootstrap.min.js']
-}
+    plugins: ['~plugins/bootstrap.js']
+};
 
