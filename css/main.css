@@ -17,10 +17,10 @@ a {
 }
 
 .band {
-    width: 15px;
+    width: 12px;
     height: 50px;
     float: left;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 body{
     background-color: #154c1b;

@@ -16,7 +16,7 @@
                 <h5>4 Band Resistor</h5>
                 <div class="row justify-content-md-center" style="position: relative">
                     <hr class="resistor-divider" />
-                    <div class="" style="background-color:#17a2b8; height: 50px;width: 150px;padding-left: 15px;z-index: 3">
+                    <div class="" style="background-color:#bbb79b; height: 50px;width: 150px;padding-left: 15px;z-index: 3">
                         <div class="band" :class="[r4b1]"></div>
                         <div class="band" :class="[r4b2]"></div>
                         <div class="band" :class="[r4b3]"></div>
@@ -50,7 +50,7 @@
                 <h5>5 Band Resistor</h5>
                 <div class="row justify-content-md-center" style="position: relative">
                     <hr class="resistor-divider" />
-                    <div class="" style="background-color:#17a2b8; height: 50px;width: 180px;padding-left: 15px;z-index: 3">
+                    <div class="" style="background-color:#bbb79b; height: 50px;width: 180px;padding-left: 15px;z-index: 3">
                         <div class="band" :class="[r5b1]"></div>
                         <div class="band" :class="[r5b2]"></div>
                         <div class="band" :class="[r5b3]"></div>
